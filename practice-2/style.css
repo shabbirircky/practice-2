@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("assets/popins/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family:"Poppins-Medium" ;
+    src: url("assets/popins/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family:"Poppins-Regular" ;
+    src: url("assets/popins/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family:"Poppins-SemiBold" ;
+    src: url("assets/popins/Poppins-SemiBold.ttf");
+}
+@font-face {
+    font-family:"Roboto-Bold" ;
+    src: url("assets/popins/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family:"Poppins-ExtraLight" ;
+    src:url("assets/popins/Poppins-ExtraLight.ttf");
+}
+@font-face {
+    font-family:"Poppins-Light" ;
+    src: url("assets/popins/Poppins-Light.ttf");
+}
+ /* -----------------------Font family START--------------- */
+body{
+    font-family:"Poppins-SemiBold" ;
+    font-family:"Poppins-Regular" ;
+    font-family:"Poppins-Medium" ;
+    font-family:"Poppins-Bold";
+    font-family:"Poppins-ExtraLight";
+    font-family:"Roboto-Bold" ;
+    font-family:"Poppins-Light" ;
+
+}
+.ffpb{
+    font-family:"Poppins-Bold";
+}
+.ffsb{
+    font-family:"Poppins-SemiBold";
+}
+.ffel{
+    font-family:"Poppins-ExtraLight" ;
+}
+.ffl{
+    font-family:"Poppins-Light" ;
+
+}
+
+.ffrb{
+    font-family:"Roboto-Bold" ;
+
+}
+.ffr{
+    font-family:"Poppins-Regular" ;
+}
+   /* -----------------------Font family END--------------- */
+.row{
+    align-items: center;
+
+}
+.f-color1{
+    color: #848199;
+}
+.f-color2{
+    color: #231D4F;
+
+}
+.row ul li{
+    list-style: none;
+
+
+}
+.hover-1:hover{
+    background-color: #3F87F5;
+    box-shadow: 0 0 50px rgb(58, 61, 65);
+    border-radius: 8%;
+    color: white ;
+    
+}
+.mybtn{
+    background-color: #fff6fb;
+    color: #3F87F5;
+    padding: 15px px;
+    border-radius: 30%;
+    border: 0;
+}
+.hover-2:hover{
+    box-shadow: 0 0 10px  black;
+}
+.last{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
